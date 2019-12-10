@@ -1,31 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
-import Banner from "../components/Banner"
-import MySkills from "../components/MySkills"
-import LatestProjects from "../components/LatestProjects"
-import Testimonials from "../components/Testimonials"
+// import Banner from "../components/Banner"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    Homepage content
     {/* banner: */}
-    <Banner layoutCssClass="l-home-banner" />
-    {/* my skils: */}
-    <MySkills layoutCssClass="l-home-skills" />
-    {/* latest projects: */}
-    <LatestProjects layoutCssClass="l-latest-projects" />
-    {/* testimonials: */}
-    <Testimonials layoutCssClass="l-home-testimonials" />
+    {/* <Banner layoutCssClass="l-home-banner" /> */}
   </Layout>
 )
 
 export default IndexPage
 
 // TODO:
-// 1. Portfolio page
-// 2. Services page
-// 3. Contact form
-// 4.
+// 1. Homepage
+// 2. Portfolio page
+// 3. Services page
+// 4. Contact form
+// 5.
